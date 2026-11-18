@@ -84,9 +84,9 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opa
   transform:translateX(calc(100vw - var(--p,0) * (100vw + 160%)))}
 .s-wrote .table{position:absolute;left:0;right:0;bottom:0;height:22vh;background:linear-gradient(#F7F4EF,#E3DED6);
   background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 2px,transparent 2px 120px),linear-gradient(#F7F4EF,#E3DED6)}
-.s-wrote .files{position:absolute;bottom:18vh;left:0;right:0;display:flex;justify-content:space-around;padding:0 6vw}
-.s-wrote .files img{height:24vh;transition:transform .5s}
-.s-wrote .files img:nth-child(2){transform:rotate(-4deg)}.s-wrote .files img:nth-child(4){transform:scaleX(-1) rotate(-3deg)}
+.s-wrote .files{position:absolute;bottom:16.5vh;left:0;right:0;display:flex;justify-content:space-around;padding:0 6vw}
+.s-wrote .files img{height:30vh;transition:transform .5s}
+.s-wrote .files img:nth-child(2n){transform:scaleX(-1)}.s-wrote .files img{filter:drop-shadow(0 18px 10px rgba(80,40,50,.25))}
 
 /* soul word */
 .s-soul{height:420vh;background:var(--cobalt);color:#fff}
@@ -210,7 +210,7 @@ footer{background:var(--paper);border-top:1px solid #ddd3c4;padding:26px 6vw 60p
       <div class="rail" aria-label="wrote it down">wrote it down.</div>
       <div class="table"></div>
       <div class="files" aria-hidden="true">
-        <img src="assets/file-character.svg" alt=""><img src="assets/file-character.svg" alt=""><img src="assets/file-character.svg" alt=""><img src="assets/file-character.svg" alt="">
+        <img src="assets/mascot.png" alt=""><img src="assets/mascot.png" alt=""><img src="assets/mascot.png" alt=""><img src="assets/mascot.png" alt="">
       </div>
     </div>
   </section>
